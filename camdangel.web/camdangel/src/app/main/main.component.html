@@ -1,0 +1,9 @@
+<div class="main-body">
+    <div class="main-title-bar">Camdan Gel</div>
+    <div class="main-menu">
+        <div (click)="openPage(item)" *ngFor="let item of menuList" class="menu-button">{{item.title}}</div>
+    </div>
+    <div class="main-content">
+        <ng-container #vcref></ng-container>
+    </div>
+</div>

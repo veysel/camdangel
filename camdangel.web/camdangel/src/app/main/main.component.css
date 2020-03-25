@@ -1,0 +1,38 @@
+.main-body{
+    margin: 100px;
+    padding: 10px;
+    background-color: rgb(231, 228, 231);
+}
+
+.main-title-bar{
+    padding: 15px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    margin-bottom: 5px;
+}
+
+.main-menu{
+    width: 20%;
+    background-color: rgb(209, 196, 190);
+    display: inline-block;
+}
+
+.main-content{
+    display: inline-block;
+    width: 80%;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.menu-button{
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(163, 111, 111);
+}
+
+.menu-button:hover{
+    color: white;
+    background-color: rgb(196, 104, 104);
+    cursor: pointer;
+}
